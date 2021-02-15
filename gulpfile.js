@@ -98,7 +98,7 @@ gulp.task('generate-favicon', function(done) {
     realFavicon.generateFavicon({
         masterPicture: './src/img/favicon-cassedechameau.png',
         dest: './dist/img/icons',
-        iconsPath: '/img/icons',
+        iconsPath: 'img/icons',
         design: {
             ios: {
                 pictureAspect: 'backgroundAndMargin',
