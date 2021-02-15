@@ -190,7 +190,7 @@ gulp.task('execute',
         'moulinette-sass',
         'moulinette-html',
         'moulinette-js',
-        'inject-favicon-markups',
+        'check-for-favicon-update',
         'inject-favicon-markups',
         'browser-sync',
         function() {
